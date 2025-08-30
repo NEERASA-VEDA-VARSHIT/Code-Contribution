@@ -1,172 +1,202 @@
 # Hacktoberfest 2024 & Hacksquad 2024
-<br>
-<p>HacktoberFest Hello World in every other language ever. Just fork it and add a 'Hello World' program to contribute for hacktober fest and send a Pull Request!!</p>
-<h4>Get yourself free goodies by just writing a hello world!</h4>
 
+## Join the Fun and Get Free Swag!
 
-### Don't forgot to star this reposetory.
-# What is hacksquad?
-HackSquad allows contributors to contribute code as a squad instead of a single contributor. Engage the community in a friendly competition over the month of October.
+Hacktoberfest is here, and so is Hacksquad 2024! Contribute to open-source projects, learn new programming languages, and earn amazing goodies by simply writing a 'Hello World' program. Fork this repository, add your 'Hello World' program, and send a Pull Request to participate!
 
-<h1>What is hactoberfest?</h1>
-<p>Hacktoberfest is an annual event that encourages contributions to open-source projects on platforms like GitHub. It takes place throughout the month of October. The main goal of Hacktoberfest is to promote open-source collaboration and community participation by rewarding contributors with limited-edition swag, such as t-shirts and stickers, for making a certain number of valid pull requests to open-source repositories.</p>
+### Don't forget to star this repository!
 
+---
 
-## Steps to follow :scroll:
+## What is Hacksquad?
+
+HackSquad allows contributors to join forces and contribute code as a team instead of as individual contributors. Engage in a friendly competition with the community throughout October.
+
+## What is Hacktoberfest?
+
+Hacktoberfest is an annual event that encourages contributions to open-source projects on platforms like GitHub. It takes place throughout October, promoting open-source collaboration and community participation. Contributors are rewarded with limited-edition swag, such as t-shirts and stickers, for making a certain number of valid pull requests to open-source repositories.
+
+---
+
+## How to Participate
 
 ### 1. Register for Hacktoberfest and Hacksquad 2024
 
-https://hacktoberfest.digitalocean.com/
+- [Hacktoberfest Registration](https://hacktoberfest.digitalocean.com/)
+- [Hacksquad Registration](https://www.hacksquad.dev/)
 
-https://www.hacksquad.dev/
+### 2. Fork this Repository
 
-### 2. Fork it :fork_and_knife:
+Click the <kbd><b>Fork</b></kbd> button to create your own copy of [this repository](https://github.com/shivaylamba/Hacktoberfest).
 
-You can get your own fork/copy of [Hacktoberfest](https://github.com/shivaylamba/Hacktoberfest) by using the <kbd><b>Fork</b></kbd></a> button or clicking [this](https://github.com/shivaylamba/Hacktoberfest/).
+### 3. Add a 'Hello World' Program
 
-[![Fork Button]](https://github.com/x0lg0n/Code-Contribution)
+- Add your program in the appropriate language folder in the main branch.
+- If the language folder doesn't exist, create one and add your program.
 
-### 3. Add a Program in any Language you like :rabbit2:
+### 4. Ready, Set, Go!
 
-Once you have forked the repo, add your progam in the language folder in main branch, if there is no language folder, make one, then add into it.
-You can take a look to the [Programming Language List](https://en.wikipedia.org/wiki/List_of_programming_languages) in Wikipedia to create a new one for Hacktoberfest!
+- Check our `Help Wanted` issues and create [pull requests](https://github.com/x0lg0n/Code-Contribution/pulls).
 
-### 4. Ready, Steady, Go... :turtle: :rabbit2:
+### 5. Star the Repository
 
-Once you have completed these steps, you are ready to start contributing
-by checking our `Help Wanted` issues and creating [pull requests](https://github.com/x0lg0n/Code-Contribution/pulls).
+If you enjoyed contributing, please star this repository and share it with others to help spread the word and support open-source contributions.
 
-### 5. Give this Project a Star :star:
+---
 
-If you liked working on this repo, please share this repo as much
-as you can and star this repo to help as many people in opensource as you can.
+## Steps to Contribute Using Git
 
-# Steps to Make Changes and contribute using GIT!
+### Cloning the Repository
 
-To make your own local copy of the repository you would like to contribute to, let’s first open up a terminal window.
+1. Open a terminal window.
+2. Use the `git clone` command with the URL of your forked repository:
 
-We’ll use the `git clone` command along with the URL that points to your fork of the repository.
+   ```bash
+   git clone https://github.com/your-username/Code-Contribution.git
+   ```
 
-This URL will be similar to the URL above, except now it will end with `.git` . In the cloud_haiku example above, the URL will look like this:
+### Creating a New Branch
 
-https://github.com/your-username/Hacktoberfest.git
+1. Change into the repository directory:
 
-You can alternatively copy the URL by using the green “Clone or download” button from your repository page that you just forked from the original repository page. Once you click the button, you’ll be able to copy the URL by clicking the binder button next to the URL:
+   ```bash
+   cd Code-Contribution
+   ```
 
-Once we have the URL, we’re ready to clone the repository. To do this, we’ll combine the `git clone` command with the repository URL from the command line in a terminal window:
+2. Create a new branch:
 
-```
-git clone (https://github.com/your-username/Code-Contribution.git)
-```
+   ```bash
+   git branch new-branch
+   ```
 
-### 4. Create a New Branch
+3. Switch to the new branch:
 
-To create your branch, from your terminal window, change your directory so that you are working in the directory of the repository. Be sure to use the actual name of the repository (i.e. Hacktoberfest) to change into that directory.
+   ```bash
+   git checkout new-branch
+   ```
 
-```
-cd Code-Contribution
-```
+### Making Changes
 
-Now, we’ll create our new branch with the `git branch` command. Make sure you name it descriptively so that others working on the project understand what you are working on.
+1. Add your changes to the staging area:
 
-```
-git branch new-branch
-```
+   ```bash
+   git add -A
+   ```
 
-Now that our new branch is created, we can switch to make sure that we are working on that branch by using the git checkout command:
+2. Commit your changes with a descriptive message:
 
-```
-git checkout new-branch
-```
+   ```bash
+   git commit -m "Add Hello World in [Language]"
+   ```
 
-Once you enter the git checkout command, you will receive the following output:
+3. Push your branch to your forked repository:
 
-```
-Output:
+   ```bash
+   git push origin new-branch
+   ```
 
-Switched to branch 'new-branch'
-```
+### Syncing Your Fork
 
-At this point, you can now modify existing files or add new files to the project on your own branch.
+1. Add the upstream repository:
 
-#### Make Changes Locally
+   ```bash
+   git remote add upstream https://github.com/x0lg0n/Code-Contribution.git
+   ```
 
-Once you have modified existing files or added new files to the project, you can add them to your local repository, which you can do with the `git add` command. Let’s add the `-A` flag to add all changes that we have made:
+2. Fetch the latest changes:
 
-```
-git add -A
-```
+   ```bash
+   git fetch upstream
+   ```
 
-or
+3. Merge the changes into your local master branch:
 
-```
-git add .
-```
+   ```bash
+   git checkout master
+   git merge upstream/master
+   ```
 
-Next, we’ll want to record the changes that we made to the repository with the git commit command.
+### Creating a Pull Request
 
-The commit message is an important aspect of your code contribution; it helps the other contributors fully understand the change you have made, why you made it, and how significant it is. Additionally, commit messages provide a historical record of the changes for the project at large, helping future contributors along the way.
+1. Navigate to your forked repository on GitHub.
+2. Click the "New pull request" button.
+3. Provide a descriptive title and summary of your changes.
+4. Submit the pull request.
 
-If you have a very short message, you can record that with the `-m` flag and the message in quotes:
+---
 
-Example:
+## Purpose of the Repository
 
-```
-git commit -m "Updated Readme.md"
-```
+This repository serves as a platform for developers to contribute to open-source projects during Hacktoberfest and Hacksquad 2024. By adding a 'Hello World' program in any programming language, contributors can participate in these events, learn new languages, and collaborate with the community.
 
-At this point you can use the `git push` command to push the changes to the current branch of your forked repository:
+## Example Contributions
 
-Example:
+Here are some examples of 'Hello World' programs in different programming languages:
 
-```
-git push --set-upstream origin new-branch
-```
+### Python
 
-### 5. Update Local Repository
-
-While you are working on a project alongside other contributors, it is important for you to keep your local repository up-to-date with the project as you don’t want to make a pull request for code that will cause conflicts. To keep your local copy of the code base updated, you’ll need to sync changes.
-
-We’ll first go over configuring a remote for the fork, then syncing the fork.
-
-### 6. Configure a Remote for the Fork
-
-Next, you’ll have to specify a new remote upstream repository for us to sync with the fork. This will be the original repository that you forked from. You’ll have to do this with the `git remote add` command.
-
-```
-git remote add upstream https://github.com/your-username/Code-Contribution.git
+```python
+print("Hello, World!")
 ```
 
-In this example, `upstream` is the shortname we have supplied for the remote repository since in terms of Git, “upstream” refers to the repository that you cloned from. If you want to add a remote pointer to the repository of a collaborator, you may want to provide that collaborator’s username or a shortened nickname for the shortname.
+### JavaScript
 
-### 7. Sync the Fork
-
-Once you have configured a remote that references the upstream and original repository on GitHub, you are ready to sync your fork of the repository to keep it up-to-date.
-
-To sync your fork, from the directory of your local repository in a terminal window, you’ll have to use the `git fetch` command to fetch the branches along with their respective commits from the upstream repository. Since you used the shortname “upstream” to refer to the upstream repository, you’ll have to pass that to the command:
-
-```
-git fetch upstream
+```javascript
+console.log("Hello, World!");
 ```
 
-Switch to the local master branch of our repository:
+### C++
 
-```
-git checkout master
-```
-
-You’ll now have to merge any changes that were made in the original repository’s master branch, that you will access through your local upstream/master branch, with your local master branch:
-
-```
-git merge upstream/master
+```cpp
+#include <iostream>
+int main() {
+    std::cout << "Hello, World!" << std::endl;
+    return 0;
+}
 ```
 
-### 8. Create Pull Request
+Feel free to explore the repository and see more examples in various languages. Happy contributing!
 
-At this point, you are ready to make a pull request to the original repository.
+---
 
-You should navigate to your forked repository, and press the “New pull request” button on your left-hand side of the page.
+## Jekyll Theme
 
-Every pull request is accepted and merged. So hurry up and contribute to this repo.
+This repository uses the Jekyll theme `minima`. To run the site locally, follow these steps:
 
-# Hurray!! You just got closer to complete your hacktoberfest challenge.
+1. **Install Jekyll**: Make sure you have Ruby and Bundler installed. Then install Jekyll with the following command:
+
+   ```bash
+   gem install jekyll bundler
+   ```
+
+2. **Clone the repository**: If you haven't already, clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/your-username/Code-Contribution.git
+   ```
+
+3. **Navigate to the repository directory**:
+
+   ```bash
+   cd Code-Contribution
+   ```
+
+4. **Install dependencies**: Install the required dependencies using Bundler:
+
+   ```bash
+   bundle install
+   ```
+
+5. **Run the Jekyll site**: Use the following command to build and serve the site locally:
+
+   ```bash
+   bundle exec jekyll serve
+   ```
+
+6. **Open your browser**: Open your web browser and go to `http://localhost:4000` to see the site.
+
+For more information on Jekyll, visit the [Jekyll documentation](https://jekyllrb.com/docs/).
+
+---
+
+Thank you for contributing to Hacktoberfest and Hacksquad 2024! Let's make open-source better together.
